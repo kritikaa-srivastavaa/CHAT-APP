@@ -11,7 +11,7 @@ import {
 import { useEffect } from "react";
 import { useHistory } from "react-router";
 import Login from "../components/Authentication/Login";
-import Signup from "../components/Authentication/SignUp";
+import SignUp from "../components/Authentication/SignUp";
 
 function Homepage() {
   const history = useHistory();
@@ -49,7 +49,7 @@ function Homepage() {
               <Login />
             </TabPanel>
             <TabPanel>
-              <Signup />
+              <SignUp />
             </TabPanel>
           </TabPanels>
         </Tabs>
